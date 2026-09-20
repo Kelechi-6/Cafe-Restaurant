@@ -14,5 +14,5 @@ export const metadata = {
 export const viewport = { colorScheme: 'light', themeColor: '#2d211b' }
 
 export default function RootLayout({ children }) {
-  return <html lang="en"><body>{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body></html>
+  return <html lang="en"><body>{children}</body></html>
 }
